@@ -1,0 +1,15 @@
+function exibir(...strings: string[]): void {
+    strings.forEach((elemento) => {
+        console.log(elemento)
+    })
+}
+
+
+console.log("Teste 1:")
+exibir("a", "b")
+
+console.log("\nTeste 2:")
+exibir("a", "b", "c")
+
+console.log("\nTeste 3:")
+exibir("a", "b", "c", "d")
