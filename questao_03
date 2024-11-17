@@ -1,0 +1,15 @@
+function numerosSeparadosPorTraco(array: number[]): string {
+    let resultado = ""
+    array.forEach((numero, index) => {
+        resultado += numero
+        if (index < array.length - 1) {
+            resultado += "-"
+        }
+    })
+    return resultado
+}
+
+
+console.log(numerosSeparadosPorTraco([1, 2, 3, 4]))
+console.log(numerosSeparadosPorTraco([10, 20, 30]))
+console.log(numerosSeparadosPorTraco([]))
