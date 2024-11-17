@@ -1,0 +1,9 @@
+function ehPar(numero: number): boolean {
+    return numero % 2 === 0
+}
+
+console.log(ehPar(4))
+console.log(ehPar(7))
+console.log(ehPar(0))
+console.log(ehPar(-2))
+console.log(ehPar(-3))
